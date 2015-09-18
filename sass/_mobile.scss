@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    min-width: 0; 
+    min-width: 0;
 }
 
 .menu-bar {
@@ -44,7 +44,7 @@ body{
         span{
             text-align: center;
             height: 30px;
-   
+
         }
     }
 }
@@ -54,3 +54,35 @@ body{
 }
 
 
+.front-tiers {
+    ul{
+        padding: 0;
+    }
+    
+    li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.tier-info {
+    display: none;
+    
+    &.middle{
+        border: 0;
+    }
+}
+
+.tier-wide {
+    display: none;
+}
+
+.services-front{
+    height: 525px;
+    
+    ul{
+        li{
+            width: 50%;
+        }
+    }
+}

@@ -2,7 +2,7 @@
     width:100% {}
     max-width: 984px;
     margin: auto;
-}    
+}
 
 textarea {
     outline: none;
@@ -19,7 +19,7 @@ input {
         -moz-appearance: none;
         -webkit-appearance: none;
     }
-} 
+}
 
 
 /*/////////////////////////////////
@@ -37,7 +37,7 @@ input {
     -ms-transition: height 0.3s;
     -o-transition: height 0.3s;
     transition: height 0.3s;
-    
+
     &.menu-small{
         height: 50px;
         .menu-container{
@@ -52,7 +52,7 @@ input {
             @include transition(0.3s);
         }
     }
-    
+
     &.menu-big{
         height: 100px;
         .menu-container{
@@ -118,8 +118,8 @@ input {
     }
     ul li a {
         span {
-            &:hover { 
-                color: $darkblue; 
+            &:hover {
+                color: $darkblue;
             }
         }
     }
@@ -159,7 +159,7 @@ input {
     vertical-align: middle;
     width: inherit;
 }
-         
+
 
 /*/////////////////////////////////
  *		   Front Slider
