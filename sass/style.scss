@@ -2,7 +2,11 @@
 
 @import "_mediaquery.scss";
 
+
 @import "_body.scss";
+
+
+@import "_mountains.scss";
 
 @include query(desktop){
     @import "_desktop.scss";
@@ -10,9 +14,9 @@
 
 @include query(mobile-big){
     @import "_mobile.scss";
-}
+} 
 
 @include query(mobile-small){
     @import "_mobiletiny.scss";
 }
-/* hello */
+/* hello */  

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>123Go</title>
+    <title>MIDGRAPH</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -14,9 +14,9 @@
 
 
     <!--fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,12 +32,12 @@
     !!!!!!!MENU!!!!!!!
   -->
     <div class="menu-wide menu-big">
+       <div class="grain"></div>
         <div class="menu-container">
             <div class="menu">
-
-                <div class="menu-logo">
+                <div class="menu-logo-mobile">
                     <a href="/index">
-                        <span class="menu-span-logo">123GO </span>
+                        <img style="vertical-align:baseline" src="SVGs/logo-04.svg">
                     </a>
                 </div>
                 <a href="#" class="toggle-panel"><i class="fa fa-bars fa-3x"></i></a>
@@ -58,6 +58,13 @@
                         </a>
                     </li>
                     <li>
+                        <div class="menu-logo">
+                            <a href="/index">
+                                <img style="vertical-align:baseline" src="SVGs/logo-04.svg">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
                         <a href="/About">
                             <span class="menu-span">ABOUT</span>
                         </a>
@@ -67,264 +74,239 @@
                             <span class="menu-span">CONTACT</span>
                         </a>
                     </li>
-                </ul>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!--
-    !!!!!!!SLIDER!!!!!!!
-  -->
-    <div class="front-slider">
-        <!--<div class="sliderimage1">
-    </div>-->
-        <div style="min-height: 140px;" class="domain-container">
-            <div class="domain-search">
-                <div class="domain1">
-                    <label for="do">www.</label>
-                    <input class="domain-text" placeholder="enter a domain" type="text" id="do">
-                    <input class="domain-button" type="button" onclick="checkDomain($('#do').val());" value="SEARCH">
-                    <div class="domain-loading"></div>
-                </div>
-            </div>
-            <div style="padding: 0px 145px;">
-                <p id="domain-result"><span id="av">-</span></p>
-            </div>
-        </div>
-    </div>
-    <div class="break1">&nbsp;</div>
-    <div class="break2">&nbsp;</div>
-
-
-
-
-    <!--
-    !!!!!!!SERVICES!!!!!!!
-  -->
-    <div class="body-container">
-        <div class="services-front">
-
-            <ul>
-                <li>
-                    <span><div class="service-circle"><img src="img/domain.svg"></div>DOMAIN <br>REGISTRATION</span>
-                </li>
-                <li>
-                    <span><div class="service-circle"><img src="img/design.svg"></div>WEBSITE <br>DESIGN</span>
-                </li>
-                <li>
-                    <span><div class="service-circle"><img src="img/hosting.svg"></div>WEBSITE<br> HOSTING</span>
-                </li>
-                <li>
-                    <span><div class="service-circle"><img src="img/email.svg"></div>EMAIL <br>SERVICES</span>
-                </li>
-            </ul>
-
-        </div>
-    </div>
-
-    <div class="break2"></div>
-
-    <!--
-    !!!!!!!TIERS!!!!!!!
-  -->
-    <div class="tier-container">
-        <div class="tier-wide">&nbsp;
-        </div>
-        <div class="body-container">
-            <div class="front-tiers">
-                <ul>
                     <li>
-                        <div id="tier1" class="tier-title">STATIC</div>
-                        <div id="tier1info" class="tier-info">
-                            <h1>$2,200</h1>
-                            <h2>from</h2>
-                            <p>
-                                Custom Website Design
-                                <br> Custom Web Development
-                                <br> Tailored to your Needs
-                                <br> X
-                                <br> Search Engine Optimised
-                                <br> Responsive Design
-                                <br> X
-                                <br> Social Network Integration
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="tier2" class="tier-title middle">THEMED</div>
-                        <div id="tier2info" class="tier-info middle">
-                            <h1>$3,300</h1>
-                            <h2>from</h2>
-                            <p>
-                                X
-                                <br> X
-                                <br> Tailored to your Needs
-                                <br> Content Management System
-                                <br> Search Engine Optimised
-                                <br> Responsive Design
-                                <br> X
-                                <br> Social Network Integration
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="tier3" class="tier-title">CUSTOM</div>
-                        <div id="tier3info" class="tier-info">
-                            <h1>$4,400</h1>
-                            <h2>from</h2>
-                            <p>
-                                Custom Website Design
-                                <br> Custom Web Development
-                                <br> Tailored to your Needs
-                                <br> Content Management System
-                                <br> Search Engine Optimised
-                                <br> Responsive Design
-                                <br> Google Analytics Installed
-                                <br> Social Network Integration
-                            </p>
-                        </div>
+                        <a href="/projects">
+                            <span class="menu-span">PROJECTS</span>
+                        </a>
                     </li>
                 </ul>
 
             </div>
         </div>
     </div>
-
-
-
-    <div class="break1" style="height:5px"></div>
-    <div class="break2" style="height:5px"></div>
-
-
+    <div id="mobile-menu" style="position:fixed; top:0; z-index: 999; right: 0; height:100%; width:100%; background:#303030;">
+        <div class="grain"></div>
+        <div class="menu">
+            <ul class="menu-bar">
+                <li class="menu-active">
+                    <a href="/index">
+                        <span class="menu-span">HOME</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Services">
+                        <span class="menu-span">SERVICES</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Work">
+                        <span class="menu-span">WORK</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/About">
+                        <span class="menu-span">ABOUT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Contact">
+                        <span class="menu-span">CONTACT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/projects">
+                        <span class="menu-span">PROJECTS</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <!--
-    !!!!!!!FOOTER!!!!!!!
--->
-    <div class="body-container">
-        <footer>
-            <ul class="footer-menu">
-                <li><a href="/index">Home</a></li>
-                <li><a href="/services">Service</a></li>
-                <li><a href="/work">Work</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-            <ul class="footer-services">
-                <li><a href="/domains">Domains</a></li>
-                <li><a href="/design">Design</a></li>
-                <li><a href="/hosting">Hosting</a></li>
-                <li><a href="/email">Email</a></li>
-            </ul>
+    !!!!!!!MOUNTAINS!!!!!!!
+  -->
 
-            <div class="footer-info">
-                <div class="footer-logo">
-                    <a href="/index">123GO</a>
-                </div>
-                <p>
-                    © 2015 123Go
-                    <br> 18c/62 Wattle Street
-                    <br> Lyneham, ACT
-                    <br> AUSTRALIA
-                </p>
-            </div>
-        </footer>
+    <div id="mountains">
+
+        <img data-stellar-ratio="1" class="mountain1" src="SVGs/background-15.svg">
+        <img data-stellar-ratio="0.9" class="mountain2" src="SVGs/background-14.svg">
+        <img data-stellar-ratio="0.8" class="mountain3" src="SVGs/background-13.svg">
+
+        <canvas data-stellar-ratio="0.7" id="canvas" width="3136" height="864"></canvas>
+        <div data-stellar-ratio="0.9" style="width: 100%;position: absolute;bottom: 0;">
+            <div class="sun"></div>
+        </div>
+       <div id="grain"></div>
+        <div style="position:absolute; width:100%; height:100px; background-color:white; bottom:0; z-index:50"></div>
     </div>
 
-    <div class="break2"></div>
+    <div style="background-color:white; width: 100%; height: 800px; margin:auto;">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </div>
+
+    <svg height="0" width="0">
+        <defs>
+            <clipPath clipPathUnits="objectBoundingBox" id="clip-polygon">
+                <path d="M0,0L0 0.51851851851852 0.016443594646272 0.53657407407407 0.10197578075207 0.42604166666667 0.10369662205226 0.44814814814815 0.11214149139579 0.55763888888889 0.13926067558955 0.50601851851852 0.13926067558955 0.50578703703704 0.13938814531549 0.50578703703704 0.13926067558955 0.50601851851852 0.13926067558955 0.50613425925926 0.1676545570427 0.5462962962963 0.1676545570427 0.5462962962963 0.16813256851498 0.546875 0.20771191841938 0.48854166666667 0.20777565328235 0.48831018518519 0.21217335882728 0.49594907407407 0.26239643084767 0.58078703703704 0.29604843849586 0.48368055555556 0.32412364563416 0.56631944444444 0.39582536647546 0.43530092592593 0.45439770554493 0.51076388888889 0.48820905035054 0.55439814814815 0.56437221159975 0.46203703703704 0.56437221159975 0.4619212962963 0.58753983428936 0.56261574074074 0.67785213511791 0.42719907407407 0.67785213511791 0.42719907407407 0.67785213511791 0.42719907407407 0.69773741236456 0.52430555555556 0.70395156150414 0.4837962962963 0.70395156150414 0.4837962962963 0.70395156150414 0.48368055555556 0.70815806246017 0.4900462962963 0.7480879541109 0.55104166666667 0.87253027405991 0.3599537037037 0.98164435946463 0.47986111111111 1 0.4318287037037 1 0 z" />
+            </clipPath>
+        </defs>
+    </svg>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.0/ocanvas.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/grained.min.js"></script>
     <script>
-        function checkDomain(domain) {
+        $(document).ready(function () {
+            
+            options = {
+        animate: true, //default true
+        patternWidth: 400,
+        patternHeight: 400,
+        grainOpacity: 0.1,
+        grainDensity: 1,
+        grainWidth: 1.1,
+        grainHeight: 1.1
+    }
+            grained('#grain',options);
+        });
+        $(function () {
+            $('.menu-wide').data('size', 'big');
+        });
 
-            $('.domain-loading').html('<i class="fa fa-refresh fa-2x fa-spin"></i>');
-            $.getJSON("https://whois.apitruck.com/" + domain, function (data) {
-                available = data["response"]["registered"];
-                if (!available) {
-                    $('.domain-loading').html(' ');
-                    $('#av').html("Your domain is available!");
-                    $('#domain-result').addClass("domain-available");
-                    $('#domain-result').removeClass("domain-unavailable");
-                    $('#domain-result').slideDown();
-                } else {
-                    $('.domain-loading').html(' ');
-                    $('#av').html("Your domain isn't available :(");
-                    $('#domain-result').addClass("domain-unavailable");
-                    $('#domain-result').removeClass("domain-available");
-                    $('#domain-result').slideDown();
+
+        $(window).scroll(function () {
+            var $nav = $('.menu-wide');
+            if ($(document).scrollTop() > 100) {
+                if ($nav.data('size') == 'big') {
+                    $nav.removeClass("menu-big");
+                    $nav.addClass("menu-small");
+                    $nav.data('size', 'small'); //.stop().animate({
+                    //     height:'50px',
+
+
+                    //  }, 100);
                 }
+            } else {
+                if ($nav.data('size') == 'small') {
+                    $nav.removeClass("menu-small");
+                    $nav.addClass("menu-big");
+                    $nav.data('size', 'big'); //.stop().animate({
+                    //       height:'100px',
+
+                    //  }, 100);
+                }
+            }
+        });
+
+        $(function () {
+            $.stellar({
+                // Set scrolling to be in either one or both directions
+                horizontalScrolling: false,
+
             });
-            return false;
-        }
+        });
 
-
-    $(function(){
-        $('.menu-wide').data('size','big');
-    });
-
-
-    $(window).scroll(function(){
-        var $nav = $('.menu-wide');
-        if ($(document).scrollTop() > 100) {
-            if ($nav.data('size') == 'big') {
-                $nav.removeClass("menu-big");
-                $nav.addClass("menu-small");
-                $nav.data('size','small');//.stop().animate({
-               //     height:'50px',
-
-
-              //  }, 100);
-            }
-        } else {
-            if ($nav.data('size') == 'small') {
-                $nav.removeClass("menu-small");
-                $nav.addClass("menu-big");
-                $nav.data('size','big');//.stop().animate({
-             //       height:'100px',
-
-              //  }, 100);
-            }
-        }
-    });
-
-
-        $(document).ready(function() {
-            $('#menu').data('open','no');
-            $('.toggle-panel').click(function(e) {
-                if ($('#menu').data('open')=='no') {
+        $(document).ready(function () {
+            $('#menu').data('open', 'no');
+            $('.toggle-panel').click(function (e) {
+                if ($('#menu').data('open') == 'no') {
                     $('.toggle-panel').html("<i class=\"fa fa-times fa-3x\"></i>");
-                    $('.menu-wide').css('background', '#333333');
-                    $('#menu').toggleClass('menu-toggle');
-                    $('#menu').data('open','yes');
-                }
-                else {
+                    $('body').css('overflow', 'hidden');
+                    $('#mobile-menu').toggleClass('mobile-menu-open');
+                    $('#menu').data('open', 'yes');
+
+                } else {
                     $('.toggle-panel').html("<i class=\"fa fa-bars fa-3x\"></i>");
-                    $('.menu-wide').css('background', '');
-                    $('#menu').removeClass('menu-toggle');
-                    $('#menu').data('open','no');
+                    $('body').css('overflow', '');
+                    $('#mobile-menu').removeClass('mobile-menu-open');
+                    $('#menu').data('open', 'no');
                 }
                 e.preventDefault();
             });
         });
 
-        
+        $(window).resize(function () {
+            if ($(window).width() > 600) {
+                $('.toggle-panel').html("<i class=\"fa fa-bars fa-3x\"></i>");
+                $('body').css('overflow', '');
+                $('#mobile-menu').removeClass('mobile-menu-open');
+                $('#menu').data('open', 'no');
+            }
+        });
+    </script>
 
-            $('#tier1').click(function() {
-                $('#tier1info').toggle('quick', function() {
-                });
+    <script>
+        var canvas = oCanvas.create({
+            canvas: "#canvas",
+            background: "none"
+        });
+
+        // Center planet
+        var center = canvas.display.ellipse({
+            x: canvas.width / 2,
+            y: canvas.height / 1.7,
+            radius: 0,
+            fill: "#E82D43"
+        }).add();
+
+        // Prototype objects that will be used to instantiate the others
+        var satelliteProto = canvas.display.ellipse({
+            fill: "#eee"
+        });
+        var pathProto = canvas.display.polygon({
+            stroke: "1px #999"
+        });
+
+        // Set up data
+        var satellites = [],
+            depth = 3;
+        var satelliteColors = ["white", "#5F92C0", "#c7509f"];
+        var pathColors = ["#666", "#107B99", "#5F92C0"];
+
+        // Create seven satellites and paths. Definition is further down.
+        for (var i = 5, l = 30; i < l; i++) {
+            createSatellite({
+                parent: center,
+                depth: 1,
+                distance: (i + 1) * canvas.width / 50,
+                radius: canvas.width / 500,
+                speed: 1
             });
-        
-         $('#tier2').click(function() {
-                $('#tier2info').toggle('quick', function() {
-                });
-            });
-         $('#tier3').click(function() {
-                $('#tier3info').toggle('quick', function() {
-                });
-            });
+        }
+
+        // Set up a tick function that will move all satellites each frame
+        canvas.setLoop(function () {
+            for (var i = 0, l = satellites.length; i < l; i++) {
+                satellites[i].rotation += satellites[i].speed;
+            }
+        });
+
+        // Definition for a satellite and its corresponding path
+        function createSatellite(options) {
 
 
+            // Create a new satellite
+            var satellite = satelliteProto.clone({
+                origin: {
+                    x: 0,
+                    y: options.distance * (Math.round(Math.random()) ? 1 : -1)
+                },
+                speed: Math.random() * (2 * Math.random() - 0.5) + 0.5,
+                radius: options.radius,
+                x: options.x || 0,
+                y: options.y || 0,
+                fill: satelliteColors[options.depth - 1],
+                rotation: Math.random() * 360
+            });
+            options.parent.addChild(satellite);
+            satellites.push(satellite);
+
+
+        }
+
+        canvas.timeline.start();
     </script>
 </body>
 
